@@ -20,7 +20,7 @@ const config = {
   },
 
   url: 'https://rengeka.github.io',
-  baseUrl: '/nexus-table-docs/',
+  baseUrl: '/NexusTable.Docs/',
   organizationName: 'nexus-mega-corp',
   projectName: 'nexus--table-docs',
 
