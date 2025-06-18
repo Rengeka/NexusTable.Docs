@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknexus_table_docs=self.webpackChunknexus_table_docs||[]).push([[933],{8406:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/NexusTable.Docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
