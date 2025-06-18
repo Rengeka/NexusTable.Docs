@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknexus_table_docs=self.webpackChunknexus_table_docs||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/nexus-table-docs/blog","blogTitle":"Blog","authorsListPath":"/nexus-table-docs/blog/authors"}')}}]);
