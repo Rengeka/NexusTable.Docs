@@ -9,8 +9,7 @@ jobs:
   build:
     name: Build Docs
     runs-on: ubuntu-latest
-    outputs:
-      artifact-name: docusaurus-build
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -23,18 +22,18 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        working-directory: NexusTableDocs/nexus-table-docs
+        working-directory: nexus-table-docs
         run: npm install
 
       - name: Build website
-        working-directory: NexusTableDocs/nexus-table-docs
+        working-directory: nexus-table-docs
         run: npm run build
 
       - name: Upload build as artifact
         uses: actions/upload-artifact@v4
         with:
           name: docusaurus-build
-          path: NexusTableDocs/nexus-table-docs/build
+          path: nexus-table-docs/build
 
   deploy:
     name: Deploy to GitHub Pages
